@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>JS </title>
+<h2><center>My Favorite Cars</center></h2>
+</head>
+
+<body>
+<p id="bug"></p>
+<script>
+var cars = ["BMW", "Audi", "Swift", "City"];
+var i, len, text;
+for (i = 0, len = cars.length, text = ""; i < len; i++) {
+text += cars[i] + "<br>";
+}
+document.getElementById("bug").innerHTML = text;
+</script>
+</body>
+</html>
+
